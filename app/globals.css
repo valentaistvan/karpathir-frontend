@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #f0ede8;
+  --surface: #ffffff;
+  --surface2: #f5f2ed;
+  --text: #1a1510;
+  --text2: #4a4540;
+  --text3: #8a8278;
+  --accent: #1B8415;
+  --accent-red: #c41c1c;
+  --border: #ddd8d0;
+}
+
+body {
+  font-family: 'Mulish', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a { color: inherit; text-decoration: none; }
